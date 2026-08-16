@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Daniela Castiblanco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">Faculty Interview</a></li>
+                <li><a href="portfolio.html">Course Planning Notes</a></li>
+                <li><a href="class1.html">English 476</a></li>
+                <li><a href="class2.html">English 409</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+		     <div class="about-col-1">
+                <img src="Daniela.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Colombian girl with unlimited dreams who is in the process of being a leader for the Global fight for human rights. I am also a passionate person for literature and philosophy who loves to transcend and progress ideals, perspectives, and virtues in order to work towards a more inclusive society. Even though my first language is Spanish, it is a unique experience to learn and read in another language.It makes me challenge myself and evolve in personal and professional aspects.I am a really open-minded person who desires to understand society, its population and social context.One day, I wish to represent my country in the United Nations. I truly want to contribute to the quality of people's lives. The struggle against inequality, lack of opportunities, and corruption is what inspires me to work harder and harder every day.</p>
+                <div class="tab-titles">
+				    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+					<p class="tab-links" onclick="opentab('position')">Leadership Positions</p>
+					<p class="tab-links" onclick="opentab('work')">Work Experience on campus</p>
+					<p class="tab-links" onclick="opentab('skills')">Professional Skills</p>
+					<p class="tab-links" onclick="opentab('awards')">Accomplishments/Awards</p>
+                    <p class="tab-links" onclick="opentab('experience')">Comunity Involvement</p>
+                </div>
+				<div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>University of Wisconsin Superior</span><br>Majors: English and Public Leadership and Innovation</li>
+                        <li>Minors: Philosophy and Political Science</li>
+                        <li>GPA 3.951/4.0</li>
+                    </ul>
+                </div>
+				<div class="tab-contents" id="position">
+                    <ul>
+                        <li>President of the Student Government Association: 2023-2024</li>
+						<li>President of the International Peace Studies Association: 2023-2024</li>
+						<li>President of the English Club 2022-2023, 2021-2022</li>
+						<li>President of the Amnesty International 2022-2023</li>
+						<li>Member of the Commencement Speaker Committee: 2023,2024</li>
+						<li>Member of Sigma Tau Delta 2024, 2023</li>
+						<li>Member of the Non-Academic Misconduct Committee: 2023-2024</li>
+						<li>Vice-President of the Phi Sigma Pi 2022</li>
+						<li>Senator of Communication, Literature, and Arts 2022-2023</li>
+						<li>Member of the Sustainability Club 2022-2023, 2021-2022</li>
+                    </ul>
+                </div>
+				<div class="tab-contents" id="work">
+                    <ul>
+                        <li>Student Assistant-International Student Services (ISS) office 2023-2024</li>
+						<li>Content creator for the International Student Services (ISS) office 2023-2024</li>
+						<li>Student Assistant-Graduate Office: 2021-2024</li>
+						<li>Leader for the Weekend of Welcome-New Domestic Students: 2022,2023</li>
+						<li>International Leader-New International Students: 2022,2023</li>
+						<li>Gender Equity Resource Center (GERC) Outreach: 2022-2024</li>
+						<li>Spanish Tutor. 2021-2024</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li>Competent in Microsoft Excel</li>
+						<li>Competent in Microsoft Word</li>
+						<li>Competent in Microsoft PowerPoint</li>
+						<li>Competent in Adobe Acrobat Pro DC</li>
+						<li>Competent in Adobe Premiere Pro</li>
+						<li>Spanish Native Speaker</li>
+						<li>English Native Speaker</li>
+                    </ul>
+                </div>
+				<div class="tab-contents" id="awards">
+                    <ul>
+                        <li>Outstanding Emerging Leadership Award Diploma, University of Wisconsin-Superior 2024</li>
+						<li>National Student Employment Week Certificate, University of Wisconsin-Superior 2024</li>
+						<li>Second Position at the World Quest, University Minnesota Duluth, 2024</li>
+						<li>Delegate of National Model United Nations, Washington D.C., 2023</li>
+						<li>Oluf Haugsrud Scholarship, University of Wisconsin Superior 2023</li>
+						<li>Secretary-General, Model United Nations, Eucharistic School,Bogota, Colombia, 2019</li>
+						<li>Student Representative and President of the Student Government, Eucharistic School,Bogota, Colombia, 2020 </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Volunteer at NGO “Sonar Despierto” Bogota, Colombia, 2023.</span><br>It is an organization by youth volunteers that seeks to transform lives through the promotion of universal values in massive events for children. I contributed to one massive event called “Sonarcity.” This event was divided into multiple fields where children could explore their skills and dreams of what they want to be or achieve in the future.</li>
+                        <li><span>Volunteer at NGO “Corporacion Vuelo” Bogota, Colombia, 2022.</span><br>It is an organization for children in poor conditions who want to explore the field of arts. I was committed to this corporation by teaching children between 5-10 years old how to dance tap and ballet.</li>
+                        <li><span>Volunteer at NGO “Sol en los Andes” Bogota, Colombia, 2019</span><br>It is an organization for children who suffer from illnesses like cancer, I was committed to that NGO by helping kids with activities like drawing, painting, singing, and dancing. I wanted to contribute to their lives by giving them happy moments.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
